@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 586f85efcd575d49b168cd32e103c56591562662
+PODS:
+  - LzyPodTest (1.0.0)
+
+DEPENDENCIES:
+  - LzyPodTest (from `https://github.com/GItHubNanmu77/LzyPodTest.git`, tag `1.0.1`)
+
+EXTERNAL SOURCES:
+  LzyPodTest:
+    :git: https://github.com/GItHubNanmu77/LzyPodTest.git
+    :tag: 1.0.1
+
+CHECKOUT OPTIONS:
+  LzyPodTest:
+    :git: https://github.com/GItHubNanmu77/LzyPodTest.git
+    :tag: 1.0.1
+
+SPEC CHECKSUMS:
+  LzyPodTest: 66e17f3191c5c22790d4e14fd94466b71b52504d
+
+PODFILE CHECKSUM: b2c9162f4120495fccf6d5afdcc8fc86e65f08c0
 
 COCOAPODS: 1.7.2
