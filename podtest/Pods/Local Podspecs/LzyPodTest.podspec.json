@@ -1,6 +1,6 @@
 {
   "name": "LzyPodTest",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "summary": "Lzy test pod project.",
   "description": "lzy pod test lzy pod test lzy pod test lzy pod test",
   "homepage": "https://github.com/GItHubNanmu77",
@@ -13,7 +13,8 @@
   },
   "source": {
     "git": "https://github.com/GItHubNanmu77/LzyPodTest.git",
-    "tag": "1.0.0"
+    "tag": "2.0.0"
   },
-  "source_files": "postest/podtest/podtest/Home/**/*.{h,m}"
+  "source_files": "podtest/podtest/Home/**/*.{h,m}",
+  "exclude_files": "Classes/Exclude"
 }

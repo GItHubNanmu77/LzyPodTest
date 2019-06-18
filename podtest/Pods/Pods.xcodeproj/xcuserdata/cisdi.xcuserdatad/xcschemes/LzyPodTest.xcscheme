@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4C754C68E34363DA370CC09FF2DB8C7"
-               BuildableName = "LzyPodTest"
+               BuildableName = "LzyPodTest.framework"
                BlueprintName = "LzyPodTest"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

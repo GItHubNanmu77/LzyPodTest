@@ -1,0 +1,6 @@
+framework module LzyPodTest {
+  umbrella header "LzyPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
