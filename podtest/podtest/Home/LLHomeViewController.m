@@ -7,9 +7,11 @@
 //
 
 #import "LLHomeViewController.h"
+#import <Masonry/Masonry.h>
 
 @interface LLHomeViewController ()
 
+@property (nonatomic, strong) UIView *topView;
 @end
 
 @implementation LLHomeViewController
@@ -17,8 +19,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.topView];
+    
+    [self.topView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view).offset(12);
+        make.left.equalTo(self.view).offset(12);
+        make.right.equalTo(self.view).offset(-12);
+        make.height.mas_equalTo(110);
+    }];
 }
 
+
+- (UIView*)topView{
+    if(!_topView){
+        _topView = [[UIView alloc]initWithFrame:CGRectZero];
+        _topView.backgroundColor = [UIColor blueColor];
+    }
+    return _topView;
+}
 /*
 #pragma mark - Navigation
 

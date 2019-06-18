@@ -6,6 +6,7 @@ target 'podtest' do
   use_frameworks!
 
    pod 'LzyPodTest', :git => "https://github.com/GItHubNanmu77/LzyPodTest.git",:tag =>'2.0.0'
+   pod 'Masonry'
   # Pods for podtest
 
   target 'podtestTests' do
